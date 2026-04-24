@@ -45,9 +45,17 @@ techhelper-ai-assistant/
 ├── system_prompt.md                 # системный промпт ассистента
 ├── knowledge_base.csv               # база знаний (FAQ + инструкции)
 │
-└── docs/
-    ├── TechHelper_Документация.docx # полная документация
-    └── TechHelper_База_знаний.xlsx  # расширенная база знаний
+├── docs/
+│   ├── TechHelper_Документация.docx # полная документация
+│   └── TechHelper_База_знаний.xlsx  # расширенная база знаний
+│
+└── screenshots/
+    ├── test_password.png            # тест: восстановление пароля
+    ├── test_deny.png                # тест: отказ выдать пароль
+    ├── test_printer.png             # тест: проблема с принтером
+    ├── test_vpn.png                 # тест: подключение VPN
+    ├── test_software.png            # тест: установка ПО
+    └── test_phishing.png            # тест: фишинговое письмо
 ```
 
 ---
@@ -109,6 +117,19 @@ techhelper-ai-assistant/
 | «Установи мне программу X» | Инструкция по подаче заявки |
 | «Как подключить VPN?» | Ссылка на инструкцию + шаги |
 | «Подозрительное письмо пришло» | Направление в службу безопасности |
+
+---
+
+## Демонстрация работы
+
+| Сценарий | Скриншот |
+|---|---|
+| Восстановление пароля | ![](screenshots/test_password.png) |
+| Отказ выдать пароль | ![](screenshots/test_deny.png) |
+| Проблема с принтером | ![](screenshots/test_printer.png) |
+| Подключение VPN | ![](screenshots/test_vpn.png) |
+| Установка ПО | ![](screenshots/test_software.png) |
+| Фишинговое письмо | ![](screenshots/test_phishing.png) |
 
 ---
 
